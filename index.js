@@ -1,4 +1,5 @@
 // Add your functions here
+<<<<<<< HEAD
 function map(source, fn){ 
   let array=[];
   for(let i=0; i<source.length; i++){
@@ -15,3 +16,7 @@ function reduce(source, fn, start){
   }
   return array
 }
+=======
+const mapToNegative=[1, 2, 3, -9] => [1, 2, 3, -9].map(ele => ele*-1);
+const mapToNoNegative=array.map(ele => ele);
+>>>>>>> 9b097c38666236cf5a2328ff2f3a0965760a1a02
